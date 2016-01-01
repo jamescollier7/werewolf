@@ -1,0 +1,16 @@
++ Rotate elder wolf image counter clockwise
++ update scapegoat image
++ update defender image
++ update ancient (elder tree) image
+- update raven image
++ update village idiot image
++ update pied piper image, and title is just "piper"
++ Insert icons next to houses
++ Add "empty" house for vagabond and add icon
++ Add all descriptions to .html files
++ Add villager-villager card (double image)
++ include pyro's fireball in description
++ include raven icon in the description
+- Town Crier?? What? lol
+- reduce house image sizes
+

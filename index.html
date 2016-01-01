@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Werewolf Helper</title>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+		<link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <h1>Werewolf Helper</h1>
+        
+        <div class="row cardViewerRow" style="display: none;">
+            <div class="col-xs-12">
+                <div class="cardViewer">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row houseViewerRow" style="display: none;">
+            <div class="col-xs-12">
+                <div class="houseViewer">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-6">
+                <h2>Cards</h2>
+                <div class="cards">
+                    <div class="card" data="werewolf"><img src="werewolf.jpg"/><div class="cardname">Simple Werewolf</div></div>
+                    <div class="card" data="simpleVillager"><img src="simpleVillager.jpg"/><div class="cardname">Simple Villager</div></div>
+                    <div class="card" data="villagervillager"><img src="villagervillager.png"/><div class="cardname">Villager-Villager</div></div>
+                    <div class="card" data="elderwolf"><img src="accursedWolfFather.png"/><div class="cardname">Accursed Wolf-Father</div></div>
+                    <div class="card" data="bigbadwolf"><img src="bigbadwolf.png"/><div class="cardname">Big Bad Wolf</div></div>
+                    <div class="card" data="wildchild"><img src="wildchild.png"/><div class="cardname">Wild-Child</div></div>
+                    <div class="card" data="rustysword"><img src="knightwithrustysword.png"/><div class="cardname">Knight With The Rusty Sword</div></div>
+                    <div class="card" data="stutteringjudge"><img src="stutteringJudge.png"/><div class="cardname">Stuttering Judge</div></div>
+                    <div class="card" data="scapegoat"><img src="scapegoat.png"/><div class="cardname">Scapegoat</div></div>
+                    <div class="card" data="bear"><img src="beartamer.png"/><div class="cardname">Bear Tamer</div></div>
+                    <div class="card" data="gypsy"><img src="gypsy.png"/><div class="cardname">Gypsy</div></div>
+                    <div class="card" data="littlegirl"><img src="littleGirl.jpg"/><div class="cardname">Little Girl</div></div>
+                    <div class="card" data="defender"><img src="defender.png"/><div class="cardname">Defender</div></div>
+                    <div class="card" data="witchdoctor"><img src="witchDoctor.jpg"/><div class="cardname">Witch Doctor</div></div>
+                    <div class="card" data="fortuneteller"><img src="fortuneTeller.png"/><div class="cardname">Fortune Teller</div></div>
+                    <div class="card" data="hunter"><img src="hunter.jpg"/><div class="cardname">Hunter</div></div>
+                    <div class="card" data="fox"><img src="fox.png"/><div class="cardname">Fox</div></div>
+                    <div class="card" data="ancient"><img src="ancient.png"/><div class="cardname">Ancient</div></div>
+                    <div class="card" data="actor"><img src="actor.png"/><div class="cardname">Actor</div></div>
+                    <div class="card" data="devotedservent"><img src="devotedservent.png"/><div class="cardname">Devoted Servent</div></div>
+                    <div class="card" data="cupid"><img src="cupid.jpg"/><div class="cardname">Cupid / Two Lovers</div></div>
+                    <div class="card" data="wolfhound"><img src="wolfhound.png"/><div class="cardname">Wolf Hound</div></div>
+                    <div class="card" data="thief"><img src="theif.jpg"/><div class="cardname">Theif</div></div>
+                    <div class="card" data="pyromaniac"><img src="pyromaniac.jpg"/><div class="cardname">Pyromaniac</div></div>
+                    <div class="card" data="raven"><img src="raven.jpg"/><div class="cardname">Raven</div></div>
+                    <div class="card" data="villageidiot"><img src="villageIdiot.png"/><div class="cardname">Village Idiot</div></div>
+                    <div class="card" data="whitewolf"><img src="whiteWolf.jpg"/><div class="cardname">White Werewolf</div></div>
+                    <div class="card" data="angel"><img src="angel.png"/><div class="cardname">Angel</div></div>
+                    <div class="card" data="prejudicedmanipulator"><img src="prejudicedmanipulator.png"/><div class="cardname">Prejudiced Manipulator</div></div>
+                    <div class="card" data="piedpiper"><img src="piedPiper.png"/><div class="cardname">Piper</div></div>
+                    <div class="card" data="threebrothers"><img src="threebrothers.png"/><div class="cardname">Three Brothers</div></div>
+                    <div class="card" data="twosisters"><img src="twosisters.png"/><div class="cardname">Two Sisters</div></div>
+                </div>
+            </div>
+            
+            <div class="col-xs-6">
+                <h2>Houses</h2>
+                <div class="houses">
+                    <div class="house" data="farm"><img src="farmhouse.png"/><img src="Cow%20Token.png"/><div class="housename">Farm</div></div>
+                    <div class="house" data="church"><img src="churchhouse.png"/><img src="Confessor%20Token.png"/><div class="housename">Church</div></div>
+                    <div class="house" data="hovel"><img src="bonesetter.png"/><img src="Mortar%20Token.png"/><div class="housename">Hovel</div></div>
+                    <div class="house" data="school"><img src="school.png"/><img src="School%20Bell%20Token.png"/><div class="housename">School</div></div>
+                    <div class="house" data="bailiff"><img src="bailiffshouse.png"/><img src="Key%20Token.png"/><div class="housename">Bailiff House</div></div>
+                    <div class="house" data="bakery"><img src="bakery.png"/><img src="Bread%20Token.png"/><div class="housename">Bakery</div></div>
+                    <div class="house" data="barber"><img src="barbershop.png"/><img src="Razor%20Token.png"/><div class="housename">Barber</div></div>
+                    <div class="house" data="pub"><img src="pub.png"/><img src="Cup%20Token.png"/><div class="housename">Pub</div></div>
+                    <div class="house" data="manor"><img src="manor.png"/><img src="Crest%20Token.png"/><div class="housename">Manor</div></div>
+                    <div class="house" data="vagabond"><img src="Vagabond%20Token.png"/><div class="housename">Vagabond</div></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
