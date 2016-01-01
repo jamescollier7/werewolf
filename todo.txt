@@ -12,5 +12,5 @@
 + include pyro's fireball in description
 + include raven icon in the description
 - Town Crier?? What? lol
-- reduce house image sizes
++ reduce house image sizes
 
