@@ -1,0 +1,23 @@
+{
+  "name": "werewolf",
+  "version": "1.0.0",
+  "description": "Automation and information for The Werewolves of Miller Hollow",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server ./ -p 8888",
+    "test": "echo we gucci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamescollier7/werewolf.git"
+  },
+  "author": "James Collier, Michael Collier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamescollier7/werewolf/issues"
+  },
+  "homepage": "https://github.com/jamescollier7/werewolf#readme",
+  "dependencies": {
+    "http-server": "^0.8.5"
+  }
+}
