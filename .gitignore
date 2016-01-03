@@ -1,0 +1,57 @@
+shc-packages/shc-application/src/main/content/jcr_root/libs/
+.classpath
+.project
+.settings
+.idea
+.pmd
+target/
+notes/
+build/
+private/
+node_modules/
+node/
+Thumbs.db
+.DS_Store
+.DS_Store?
+*~
+nb-actions*.xml
+nbactions*.xml
+nb-configuration.xml
+*.swp
+*.iml
+.idea
+
+# Compiled source #
+###################
+**/*.css
+!shc-packages/shc-application/src/main/content/jcr_root/etc/clientlibs/shc/main/css/video-js.css
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.classpath
+*.prefs
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# OS generated files #
+######################
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+generated/
+.vlt
