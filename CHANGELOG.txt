@@ -1,5 +1,0 @@
-January 1st - Michael
-
-+ Organized things into a folder structure and fixed resource links
-+ Resized dropdown icons to max 100px wide
-+ Made a basic node server for me to run it on :D
