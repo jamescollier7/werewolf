@@ -2,96 +2,15 @@
 <html>
     <head>
         <title>Werewolf Helper</title>
-
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-        <!-- Latest compiled JavaScript -->
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-        <script src="js/jquery/jquery-1.9.0.min.js" type="text/javascript"></script>
-        <script src="js/msdropdown/jquery.dd.min.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="css/msdropdown/dd.css" />
-
-		<link rel="stylesheet" href="styles.css">
+        
+	<link rel="stylesheet" href="/styles.css">
     </head>
 
     <body>
         <h1>Werewolf Helper</h1>
 
-        <div class="row">
-            <div class="col-xs-6">
-                <select name="cardMenu" id="cardMenu" style="width:400px">
-                    <option value="">Select a card...</option>
-                    <option value="werewolf" data-image="images/msdropdown/icons/roles/werewolf.png">Simple Werewolf</option>
-                    <option value="simpleVillager" data-image="images/msdropdown/icons/roles/simpleVillager.png">Simple Villager</option>
-                    <option value="villagervillager" data-image="images/msdropdown/icons/roles/villagervillager.png">Villager-Villager</option>
-                    <option value="elderwolf" data-image="images/msdropdown/icons/roles/accursedWolfFather.png">Accursed Wolf-Father</option>
-                    <option value="bigbadwolf" data-image="images/msdropdown/icons/roles/bigbadwolf.png">Big Bad Wolf</option>
-                    <option value="wildchild" data-image="images/msdropdown/icons/roles/wildchild.png">Wild-Child</option>
-                    <option value="rustysword" data-image="images/msdropdown/icons/roles/knightwithrustysword.png">Knight With The Rusty Sword</option>
-                    <option value="stutteringjudge" data-image="images/msdropdown/icons/roles/stutteringJudge.png">Stuttering Judge</option>
-                    <option value="scapegoat" data-image="images/msdropdown/icons/roles/scapegoat.png">Scapegoat</option>
-                    <option value="bear" data-image="images/msdropdown/icons/roles/beartamer.png">Bear Tamer</option>
-                    <option value="gypsy" data-image="images/msdropdown/icons/roles/gypsy.png">Gypsy</option>
-                    <option value="littlegirl" data-image="images/msdropdown/icons/roles/littleGirl.png">Little Girl</option>
-                    <option value="defender" data-image="images/msdropdown/icons/roles/defender.png">Defender</option>
-                    <option value="witchdoctor" data-image="images/msdropdown/icons/roles/witchDoctor.png">Witch</option>
-                    <option value="fortuneteller" data-image="images/msdropdown/icons/roles/fortuneTeller.png">Seer</option>
-                    <option value="hunter" data-image="images/full/hunter.jpg">Hunter</option>
-                    <option value="fox" data-image="images/msdropdown/icons/roles/fox.png">Fox</option>
-                    <option value="ancient" data-image="images/msdropdown/icons/roles/ancient.png">Elder</option>
-                    <option value="actor" data-image="images/msdropdown/icons/roles/actor.png">Actor</option>
-                    <option value="devotedservent" data-image="images/msdropdown/icons/roles/devotedservent.png">Devoted Servent</option>
-                    <option value="cupid" data-image="images/msdropdown/icons/roles/cupid.png">Cupid / Two Lovers</option>
-                    <option value="wolfhound" data-image="images/msdropdown/icons/roles/wolfhound.png">Wolf Hound</option>
-                    <option value="thief" data-image="images/msdropdown/icons/roles/theif.png">Thief</option>
-                    <option value="pyromaniac" data-image="images/msdropdown/icons/roles/pyromaniac.png">Pyromaniac</option>
-                    <option value="raven" data-image="images/msdropdown/icons/roles/raven.png">Raven</option>
-                    <option value="villageidiot" data-image="images/msdropdown/icons/roles/villageIdiot.png">Village Idiot</option>
-                    <option value="whitewolf" data-image="images/msdropdown/icons/roles/whiteWolf.png">White Werewolf</option>
-                    <option value="angel" data-image="images/msdropdown/icons/roles/angel.png">Angel</option>
-                    <option value="prejudicedmanipulator" data-image="images/msdropdown/icons/roles/prejudicedmanipulator.png">Prejudiced Manipulator</option>
-                    <option value="piedpiper" data-image="images/msdropdown/icons/roles/piedPiper.png">Piper</option>
-                    <option value="threebrothers" data-image="images/msdropdown/icons/roles/threebrothers.png">Three Brothers</option>
-                    <option value="twosisters" data-image="images/msdropdown/icons/roles/twosisters.png">Two Sisters</option>
-                </select>
-            </div>
+	<div id="app"></div>
 
-            <div class="col-xs-6">
-                <select name="houseMenu" id="houseMenu" style="width:400px">
-                    <option value="">Select a house...</option>
-                    <option value="farm" data-image="images/msdropdown/icons/tokens/cow.png">Farm</option>
-                    <option value="church" data-image="images/msdropdown/icons/tokens/confessor.png">Church</option>
-                    <option value="hovel" data-image="images/msdropdown/icons/tokens/mortar.png">Hovel</option>
-                    <option value="school" data-image="images/msdropdown/icons/tokens/school-bell.png">School</option>
-                    <option value="bailiff" data-image="images/msdropdown/icons/tokens/key.png">Bailiff House</option>
-                    <option value="bakery" data-image="images/msdropdown/icons/tokens/bread.png">Bakery</option>
-                    <option value="barber" data-image="images/msdropdown/icons/tokens/razor.png">Barber</option>
-                    <option value="pub" data-image="images/msdropdown/icons/tokens/cup.png">Pub</option>
-                    <option value="manor" data-image="images/msdropdown/icons/tokens/crest.png">Manor</option>
-                    <option value="vagabond" data-image="images/msdropdown/icons/tokens/vagabond.png">Vagabond</option>
-                </select>
-            </div>
-        </div>
-
-        <div class="row cardViewerRow" style="display: none;">
-            <div class="col-xs-12">
-                <div class="cardViewer">
-                </div>
-            </div>
-        </div>
-
-        <div class="row houseViewerRow" style="display: none;">
-            <div class="col-xs-12">
-                <div class="houseViewer">
-                </div>
-            </div>
-        </div>
-
-        <script src="app.js"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>
