@@ -1,1 +1,251 @@
-
+{
+  "roles": [
+    {
+      "name": "actor",
+      "title": "The Actor",
+      "altTitles": [],
+      "descriptionHtml": "<p>(called at night)</p>
+    <p>Before the game, the Moderator chooses three character cards with special abilities. After the roles have been dealt, these cards are placed face up in the middle of the table. Each night, when called by the Moderator, the Actor can choose one of these cards and use the corresponding power until the next night. If the Actor uses a character card, the Moderator removes that card from the table. It may no longer be used.</p>
+    <p><b>Note:</b> The cards offered may not be Werewolf cards.</p>"
+    },
+    {
+      "name": "ancient",
+      "title": "The Elder",
+      "altTitles": ["The Ancient"],
+      "descriptionHtml": "<p>The Werewolves will have to try twice to devour him. The first time the Elder is devoured by the Werewolves, he survives and the Moderator does not flip over his card. The Elder is only eliminated when he is devoured a second time. The village’s vote, the Witch’s poison potion, the Hunter’s shot, and the Barber’s razor will all kill him on the first time. </p>
+    <p>This results in the Villagers losing all their special powers until the end of the game.
+He is not affected by the Accursed Wolf-Father if it’s the first time he’s bitten. If the Elder is healed by the Witch, he only regains one life.</p>"
+    },
+    {
+      "name": "angel",
+      "title": "The Angel",
+      "altTitles": [],
+      "descriptionHtml": "<p>When the Angel is in play, the game always begins with the village’s debate followed by an elimination vote, and then the first night begins. If the Angel manages to attract the discriminatory vote of the villagers or the devouring vindictiveness of the Werewolves to be eliminated on the first turn, he will then be able to leave the nightmare a winner and win the game.</p>
+    <p>In that case, the game ends: the players can then immediately begin a new game.</p>
+    <p>If he fails, he becomes a Simple Villager for the rest of the game.</p>"
+    },
+    {
+      "name": "bear",
+      "title": "The Bear Tamer",
+      "altTitles": [],
+      "descriptionHtml": "    <p>Each morning, right after the revelation of any possible nocturnal victims, if at least one Werewolf is or ends up directly next to the Bear Tamer, then the Moderator grunts to let the players know that the Tamer’s bear has smelled danger. Only players next to him and still in play are taken into account.</p>
+    <p><b>Note:</b> If the Bear Tamer is infected, then the Moderator will grunt each turn, until the Bear Tamer is eliminated.</p>"
+    },
+    {
+      "name": "bigbadwolf",
+      "title": "The Big Bad Wolf",
+      "altTitles": [],
+      "descriptionHtml": "<p>Each night he wakes up and devours with the other Werewolves. But as long as no Werewolf, Wild-Child, or Wolf-Hound (lycanthropes) has been eliminated, he wakes up a second time and devours a second victim.</p>
+    <p>He cannot devour a Werewolf.</p>"
+    },
+    {
+      "name": "cupid",
+      "title": "Cupid",
+      "altTitles": ["The Two Lovers"],
+      "descriptionHtml": "<p>The first night (preliminary turn), he chooses two players who are in love. Cupid can, if he so wishes, choose himself as one of the two lovers.</p>
+    <p>If one of the two Lovers is eliminated, the other immediately dies of sorrow. A Lover may never eliminate their loved one, nor bear them any prejudice (even if only bluffing!).</p>
+    <p><b>Note:</b> If one of the two Lovers is a Villager and the other a Werewolf or the Piper, the goal of the game changes for the Lovers. As, in order to live out their love in peace and win the game, they must eliminate all of the other players, Werewolves and Villagers, while following the rules of the game.</p>"
+    },
+    {
+      "name": "defender",
+      "title": "The Defender",
+      "altTitles": [],
+      "descriptionHtml": "<p>(called at night)</p>
+    <p>This character can save the Villagers from the bite of the Werewolves.  Each night the Defender is called before the Werewolves.</p>
+    <p>The Defender then points out a player to the Moderator. (Tradition requires the Defender to first make the symbol drawn on his card with his hand). The player thus chosen will be protected during the night (and only during that night) against the Werewolves. Even if chosen by the Werewolves, the player will not be eliminated from the game.</p>
+    <p><b>Note:</b> The Defender can protect himself. The Defender isn’t allowed to protect the same player two nights in a row. The Defender’s protection has no result on the Little Girl. (She’s having an adolescent crisis and nothing can save her from trouble). The Defender does not protect against the Piper or against the infection of the Accursed Wolf-Father.</p>"
+    },
+    {
+      "name": "devotedservent",
+      "title": "The Devoted Servant",
+      "altTitles": [],
+      "descriptionHtml": "<p>Before the revelation of the card of the player eliminated by the village’s vote, she can reveal herself by showing her card. In that case, the Devoted Servant loses her card, and then takes the card of the eliminated player without revealing it to anyone and takes on the role of the eliminated player until the end of the game.</p>
+    <p>As a general rule, the new role taken on by the Devoted Servant sees its ability completely rest and must be played as though it was the first night. However, any possible effects previously applied to the eliminated player are cancelled.</p>
+    <p>If the eliminated player was infected, in love, charmed, Sheriff, Town Crier, or Cupid, the ex-Devoted Servant isn’t.</p>
+    <p>If the ex-Devoted Servant was charmed, Sheriff, or Town Crier, she no longer is.</p>
+    <p>If the ex-Devoted Servant becomes:</p>
+    <ul>
+        <li><b>Piper:</b> the Moderator indicates to this new Piper which players were previously charmed.</li>
+        <li><b>Actor</b>, <b>Town Crier</b>, or <b>Gypsy:</b> new cards aren’t dealt; only the unused ones remain.</li>
+    </ul>
+    <p><b>Note:</b>  If she’s in love, the Devoted Servant cannot use her power. Her love is stronger than her desire to change characters.</p>"
+    },
+    {
+      "name": "elderwolf",
+      "title": "The Elder Wolf",
+      "altTitles": ["The Accursed Wolf-Father"],
+      "descriptionHtml": "<p>Each night, he wakes up and devours with the other Werewolves. But once per game, if he so wishes, after the Werewolves have fallen asleep, he raises his hand. This means that the victim isn’t devoured, but infected.</p>
+    <p>The Accursed Wolf-Father can only use his special power once per game. The Moderator then touches the infected inhabitant who then immediately (and secretly) becomes a Werewolf and who will take part each night in the Werewolves’ feast. If the player had a nocturnal power, they will be woken up by the Moderator on following turns to use this power, in addition to being called with the Werewolves.</p>"
+    },
+    {
+      "name": "fortuneteller",
+      "title": "The Fortune Teller",
+      "altTitles": ["The Seer"],
+      "descriptionHtml": "<p>Each night, she sees the card of a player of her choice. She must help the other Villagers, but must remain discreet in order not to be unmasked by the Werewolves. </p>"
+    },
+    {
+      "name": "fox",
+      "title": "The Fox",
+      "altTitles": [],
+      "descriptionHtml": "<p>(called at night)</p>
+    <p>At night, when called by the moderator, the Fox can choose a group of three players neighbouring each other, of whom he points to the central player. If in this group is at least one Werewolf, then the Moderator makes an affirmative sign to the Fox. In that case, the Fox will be able to use his power again on another night. If there is not a Werewolf in the chosen group, then the Fox permanently loses his power; however, he has important information, clearing the names of three players in one fell swoop.</p>
+    <p><b>Note:</b> The Moderator calls the Fox each night, but that player is not forced to use his power each night. The Fox doesn’t see the cards; the Moderator simply lets him know whether or not there’s a Werewolf among those three players.</p>"
+    },
+    {
+      "name": "gypsy",
+      "title": "The Gypsy",
+      "altTitles": [],
+      "descriptionHtml": "<p>At the beginning of the game, the Moderator takes the five Spiritualism cards from “New Moon” and keeps them in hand.</p>
+    <p>Each night, the Moderator calls out the Gypsy and asks her if she wants to use her power. If affirmative, the Moderator reads out loud the four questions of a Spiritualism card of his choice. The Gypsy choses one of the four questions with a gesture.</p>
+    <p>She then points out to the Moderator the inhabitant who will have to ask this question.</p>
+    <p>The next morning, the chosen player becomes medium and asks this question out loud. With a strong otherworldly voice, the first eliminated player answers this question with a “Yessssss” or “Noooooo.”  This card is then discarded.</p>"
+    },
+    {
+      "name": "hunter",
+      "title": "The Hunter",
+      "altTitles": [],
+      "descriptionHtml": "<p>If he gets devoured by the Werewolves or unfortunately eliminated by the Villagers, the Hunter must strike back before giving up the ghost, by immediately eliminating any player of their choice.</p>
+    <p><b>Special case:</b> If the Hunter is in Love with an eliminated player, before leaving the game the Hunter must immediately eliminate another player of their choice. This can create a game where there are no players left alive. In that case, none of the sides can claim victory.</p>"
+    },
+    {
+      "name": "littlegirl",
+      "title": "The Little Girl",
+      "altTitles": [],
+      "descriptionHtml": "<p>The Little Girl can, by opening her eyes a bit, spy on the Werewolves while they’re awake. If she’s caught by one of the Werewolves, she can immediately be devoured (in silence) instead of the chosen victim.</p>
+    <p>The Little Girl can only spy at night, when the Werewolves are awake. She’s not allowed to pass herself off as a Werewolf and open her eyes wide.</p>"
+    },
+    {
+      "name": "piedpiper",
+      "title": "The Pied Piper",
+      "altTitles": ["The Piper"],
+      "descriptionHtml": "<p>(called at night)</p>
+    <p>Each night, at the Moderator's call, the Piper charms two new players. As soon as there are only charmed players left, the Piper wins the game. (Even if this happens due to a vote from the Village, or because of the Werewolves.)</p>
+    <p>If infected by the Accursed Wolf-Father, he becomes a simple Werewolf. His original objective, which was to charm all players, is then abandoned. He’ll collaborate with the Werewolves to accomplish their goal for a common victory.</p>
+    <p><b>Note:</b> The Piper cannot charm himself. The Defender doesn’t protect against the charm. The Witch can’t heal the charm. The Werewolves are not immune to the charm.</p>
+    <p>The charmed players all keep their powers and their characteristics. The charm isn’t transmitted between lovers.</p>"
+    },
+    {
+      "name": "prejudicedmanipulator",
+      "title": "The Prejudiced Manipulator",
+      "altTitles": [],
+      "descriptionHtml": "<p>Before the beginning of the game, the Moderator divides the village into two groups, according to an obvious criteria (gender, glasses, size, age, etc.) and announces it out loud to the village. The Prejudiced Manipulator will of course have to be part of one of these two groups.</p>
+    <p>The goal of this character is the elimination of all players of the group he hates, meaning the ones he doesn’t belong to.</p>
+    <p>In that case, and only in that case, he wins the game. He has no special powers: his skill at manipulating the inhabitants of the village is his only weapon!</p>
+    <p>If he gets infected by the Accursed Wolf-Father, he becomes a simple Werewolf.</p>
+    <p><b>Note:</b> It’s not necessary to create two groups of equal size. Don’t hesitate, if necessary, to specify in front of everyone to which group each inhabitant belongs to.</p>"
+    },
+    {
+      "name": "pyromaniac",
+      "title": "The Pyromaniac",
+      "altTitles": ["The Arsonist"],
+      "descriptionHtml": "<p>(called at night)</p>
+    <p>When his role is called, the Pyromaniac can, once per game, choose a building on which the Moderator will place the “fire” tile.</p>
+    <p>The next morning, after all the inhabitants have seen the results of the conflagration, the building is removed from the game for good. Its former occupant isn’t eliminated, but instead becomes a Vagabond.</p>
+    <p>If the Pyromaniac chooses the building in which that night’s Werewolf victim lives, the first Werewolf to right of the victim is eliminated instead. Panicked by the flames, any surviving Werewolves don’t have the time to settle down for their meal! In this case, there is no victim for that night. </p>"
+    },
+    {
+      "name": "rusty sword",
+      "title": "The Knight with the Rusty Sword",
+      "altTitles": ["The Knight", "Rusty Sword"],
+      "descriptionHtml": "<p>If the knight is devoured, he’s eliminated, but one of the Werewolves is contaminated by the rusted sword. Among the Werewolves guilty of that elimination, the first Werewolf to the left of the Knight with the Rusty Sword will be eliminated on the next night. This elimination due to disease will be revealed by the Moderator in the morning following the Werewolf’s disappearance. That player will have thus survived his wound for a day.</p>
+    <p><b>Note:</b> Players will be able to deduce that all the inhabitant sitting between the defunct Knight with the Rusty Sword and the sick Werewolf are innocent villagers.</p>"
+    },
+    {
+      "name": "scapegoat",
+      "title": "The Scapegoat",
+      "altTitles": [],
+      "descriptionHtml": "<p>If the village’s vote ends in a tie, it’s the Scapegoat who is eliminated instead of the tried character. It is up to him to work carefully to avoid such a sad fate. If the Scapegoat is eliminated, he has one last task to complete—he’ll choose who is permitted to vote or not on the next day.</p>
+    <p><b>Note:</b> Choosing only one player to vote is to risk them getting devoured by the Werewolves on the next night. There would then be no village vote. (Except, of course, if the chosen player is a Werewolf, or if the Werewolves deliberately don’t eat the chosen player…)</p>"
+    },
+    {
+      "name": "villager",
+      "title": "Villager",
+      "altTitles": ["Simple Villager"],
+      "descriptionHtml": "<p>Their only weapons are the ability to analyze behavior to identify Werewolves, and the strength of their convictions to prevent the execution of the innocents like themselves.</p>"
+    },
+    {
+      "name": "stutteringjudge",
+      "title": "The Stuttering Judge",
+      "altTitles": ["The Judge"],
+      "descriptionHtml": "<p>Once per game, the Stuttering Judge can decide that there’ll be two consecutive votes and two subsequent eliminations. The Stuttering Judge lets the Moderator know his decision through a special sign he uses to choose an inhabitant during a village’s vote. The second vote is immediately started without any debate by the Moderator, right after the elimination caused by the first vote. The Stuttering Judge will have shown the Moderator that special sign during the first night, when called by the Moderator.</p>"
+    },
+    {
+      "name": "thief",
+      "title": "The Thief",
+      "altTitles": [],
+      "descriptionHtml": "<p>called on the first night</p>
+    <p>If the Thief is in the mix, two extra Simple Villager cards must be added to those already chosen.</p>
+    <p>After the characters are dealt, the two cards which haven’t been dealt are placed in the middle of the table, face-down. On the first night, the Thief will be able to take a look at these two cards, and exchange his card for one of the two others. If these cards are both Werewolves, he must exchange his card for one of these two Werewolves. He’ll play that character from now on, until the end of the game.</p>"
+    },
+    {
+      "name": "threebrothers",
+      "title": "The Three Brothers",
+      "altTitles": [],
+      "descriptionHtml": "<p>(called at night)</p>
+    <p>The first night, when called by the Moderator, they wake up together and recognize each other. For experienced players, during the game, once in awhile (every other turn or at the Moderator’s discretion), they wake up again and, quickly and in silence, agree on the decisions to be taken to save the village.</p>"
+    },
+    {
+      "name": "twosisters",
+      "title": "The Two Sisters",
+      "altTitles": [],
+      "descriptionHtml": "<p>The first night, when called by the Moderator, they wake up together and recognize each other. During the game, once in awhile (every other turn or at the Moderator’s discretion), they wake up again and agree, quickly and in silence, on the decisions to be taken to save the village. </p>"
+    },
+    {
+      "name": "villageidiot",
+      "title": "The Village Idiot",
+      "altTitles": [],
+      "descriptionHtml": "<p>If the village votes against him, the Idiot flips his card over. At that moment the Villagers understand their mistake and immediately let him be. From now on, he continues to play, but may no longer vote. There will not be another vote that turn.</p>
+    <p><b>Note:</b> If the Werewolves devour him, the Idiot is eliminated. If the Idiot is eliminated while he was the Sheriff, he does not pass this function, and there will thus no longer be a Sheriff. If the Hunter shoots the Idiot, the Idiot gets eliminated.</p>"
+    },
+    {
+      "name": "villagervillager",
+      "title": "Villager Villager",
+      "altTitles": ["Guaranteed Villager],
+      "descriptionHtml": "<p>On both of its sides, this card has the image of a Simple Villager.</p>
+    <p>When the cards are dealt, the village will thus have the certainty that its owner is truly an innocent Simple Villager.</p>"
+    },
+    {
+      "name": "werewolf",
+      "title": "Werewolf",
+      "altTitles": ["Simple Werewolf],
+      "descriptionHtml": "<p>Each night, they devour a Villager. During the day, they try to hide their nocturnal identity to avoid mob justice.</p>
+    <p>Under no circumstances can a Simple Werewolf devour another Werewolf.</p>"
+    },
+    {
+      "name": "whitewolf",
+      "title": "The White Werewolf",
+      "altTitles": [],
+      "descriptionHtml": "<p>(called at night)</p>
+    <p>Each night, he wakes up and devours with the other Werewolves.</p>
+    <p>But every other night, on the Moderator’s call, he wakes up alone and can eliminate a Werewolf.</p>
+    <p><b>The goal of this character is to be the village’s sole survivor.</b></p>
+    <p>Only in this situation does he win the game.</p>"
+    },
+    {
+      "name": "wildchild",
+      "title": "The Wild-Child",
+      "altTitles": [],
+      "descriptionHtml": "<p>The Wild-Child is a villager.  On the first night, when called by the Moderator, he chooses a player to be his role model.</p>
+    <p>If during the game the chosen player is eliminated, the Wild-Child becomes a Werewolf and will wake up the next night with his peers, and will devour with them each night until the end of the game. However, for as long as his role model is alive, the Wild-Child remains a villager. Whether his model is a Werewolf or not changes nothing!</p>
+    <p>Nothing’s keeping the Wild-child from taking part in the elimination of his role model if he so wishes. If his model is alive when all of the Werewolves have been eliminated, he wins with the villagers. If his role model is eliminated and only Werewolves survive with him, it’s also a victory for the Wild-Child.</p>"
+    },
+    {
+      "name": "witchdoctor",
+      "title": "The Witch Doctor",
+      "altTitles": ["The Witch", "Potion Seller"],
+      "descriptionHtml": "<p>She knows how to brew two extremely powerful potions: a healing potion, to resurrect the player devoured by the Werewolves, and a poison potion, used at night to eliminate a player.</p>
+    <p>The Witch can use each potion <b>only once per game</b>. She can use both of her potions in the same night.</p>
+    <p>In the morning, depending on the potion(s) used, there might be two players eliminated or none!</p>
+    <p>The Witch can also use the healing potion for her own benefit and heal herself if she was just devoured by the Werewolves.</p>"
+    },
+    {
+      "name": "wolfhound",
+      "title": "The Wolf-Hound",
+      "altTitles": [],
+      "descriptionHtml": "    <p>The first night, he chooses if he wants to be a Simple Villager or Werewolf. If he wishes to be a Werewolf, he’ll wake up with them each night and will from then on participate in the choice of the victim to be devoured. Otherwise, he’ll keep his eyes closed and will win with the villagers. This choice is final.</p>"
+    },
+  ],
+  "houses": [
+    
+  ]
+}
