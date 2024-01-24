@@ -13,7 +13,7 @@
 
     const buildDropdownHtml = async (data) => {
         const roleHtml = await data.roles.map(({name, title, altTitles, descriptionHtml}) => {
-            return `<div id="${name}" class="dropdown-item"><h2>${title}</h2></div>`
+            return `<div id="${name}" class="dropdown-item"><img src="/images/msdropdown/icons/roles/${name}.png"><h2>${title}</h2></div>`
         }).join(``)
 
         return `<div class="dropdown">
