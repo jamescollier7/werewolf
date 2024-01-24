@@ -34,7 +34,7 @@
             if (target.classList.contains(`dropdown-button`)) {
                 const parent = target.parentElement
                 const dropdownList = parent.querySelector(`.dropdown-list`)
-                dropdownList.classList.remove(`hidden`)
+                dropdownList.classList.toggle(`hidden`)
             }
         })
     }
