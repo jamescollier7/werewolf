@@ -58,7 +58,7 @@
         // select item
         const dropdownLists = document.querySelectorAll(`.dropdown .dropdown-list`)
         dropdownLists.forEach((dropdownList) => {
-            dropdownList.addEventListener(`click`, handleDropdownItemClick(event))
+            dropdownList.addEventListener(`click`, handleDropdownItemClick)
         })
 
         // do reset
