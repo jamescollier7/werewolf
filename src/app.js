@@ -30,16 +30,20 @@
     const bindClickEvents = () => {
         // open/close dropdown
         const dropdownButtons = document.querySelectorAll(`.dropdown button.button`)
-        dropdownButtons.addEventListener(`click`, (event) => {
-            // which dropdown?
-            console.log(event.currentTarget)
+        dropdownButtons.forEach((dropdownButton) => {
+            dropdownButton.addEventListener(`click`, (event) => {
+                // which dropdown?
+                console.log(event.currentTarget)
+            })    
         })
 
         // select item
-        const dropdownList = document.querySelectorAll(`.dropdown .dropdown-list`)
-        dropdownList.addEventListener(`click`, (event) => {
-            // which item
-            localStorage.setItem("myCat", "Tom")
+        const dropdownLists = document.querySelectorAll(`.dropdown .dropdown-list`)
+        dropdownLists.forEach((dropdownList) => {
+            dropdownList.addEventListener(`click`, (event) => {
+                // which item
+                localStorage.setItem("myCat", "Tom")
+            })
         })
 
         // do reset
