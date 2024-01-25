@@ -9,7 +9,29 @@
     <body>
         <h1>Werewolf Helper</h1>
 
-	<div id="app"></div>
+	<div id="app">
+		<div class="selected-role">
+			<!-- injected via js after selection-->
+		</div>
+		<div class="selected-house">
+			<!-- injected via js selection -->
+		</div>
+		<div class="dropdown role">
+			<button class="button role-select" type="button"></button>
+			<div class="dropdown-list roles">
+				<!-- injected via js -->
+			</div>
+		</div>
+
+		<div class="dropdown house">
+			<button class="button house-select" type="button"></button>
+			<div class="dropdown-list houses">
+				<!-- injected via js -->
+			</div>
+		</div>
+
+		<button class="button reset" type="button">Reset</button>
+	</div>
 
         <script src="src/app.js"></script>
     </body>
