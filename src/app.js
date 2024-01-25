@@ -33,8 +33,8 @@
     }
 
     const handleDropdownItemClick = (event) => {
-        const name = event.target.dataset.name
-        const type = event.target.parentElement.parentElement.dataset.type
+        const name = event.currentTarget.dataset.name
+        const type = event.currentTarget.parentElement.dataset.type
 
         // save selection
         localStorage.setItem(type, name)
@@ -43,7 +43,7 @@
         showRole(name, type)
 
         // hide dropdown
-        event.target.parentElement.parentElement.classList.toggle(`hidden`)
+        event.currentTarget.parentElement.parentElement.classList.toggle(`hidden`)
     }
 
     const bindClickEvents = () => {
@@ -51,7 +51,7 @@
         const dropdownButtons = document.querySelectorAll(`.dropdown button.button`)
         dropdownButtons.forEach((dropdownButton) => {
             dropdownButton.addEventListener(`click`, (event) => {
-                event.target.parentElement.querySelector(`.dropdown-list`).classList.toggle(`hidden`)
+                event.currentTarget.parentElement.querySelector(`.dropdown-list`).classList.toggle(`hidden`)
             })    
         })
 
