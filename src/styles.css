@@ -18,6 +18,10 @@ button {
   border-radius: 8px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 button.reset {
   position: absolute;
   z-index: 1;
