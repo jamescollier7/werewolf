@@ -1,8 +1,8 @@
 ;(() => {
     'use strict';
 
-    const app
-    const data
+    let app
+    let data
 
     const init = async () => {
         app = document.getElementById(`app`)
