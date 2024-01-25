@@ -32,6 +32,9 @@ button.reset {
 
 .dropdown-item {
   display: flex;
+  padding: 5px;
+  border: 1px solid #0001;
+  margin: 5px 0;
 }
 
 .dropdown-item img {
