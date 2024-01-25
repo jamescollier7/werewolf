@@ -1,10 +1,12 @@
 ;(() => {
     'use strict';
 
+    const app
+
     const init = async () => {
         const data = await getRoles()
         const dropdownHtml = await buildDropdownHtml(data)
-        const app = document.getElementById(`app`)
+        app = document.getElementById(`app`)
 
         app.innerHTML += dropdownHtml
 
@@ -27,6 +29,10 @@
         return await response.json()
     }
 
+    const selectRole = async () => {
+        app.innerHTML = `asdf`
+    }
+
     const bindClickEvents = () => {
         document.addEventListener(`click`, (event) => {
             const target = event.target
@@ -35,6 +41,8 @@
                 const parent = target.parentElement
                 const dropdownList = parent.querySelector(`.dropdown-list`)
                 dropdownList.classList.toggle(`hidden`)
+            } else if (target.classList.contains(`dropdown-item`) {
+                
             }
         })
     }
