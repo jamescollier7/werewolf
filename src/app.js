@@ -30,6 +30,7 @@
     const showRole = (name, type) => {
         const selectedContainer = document.getElementById(`selected-${type}`)
         selectedContainer.innerHTML = `${name} ${type}`
+        selectedContainer.classList.remove(`hidden`)
     }
 
     const handleDropdownItemClick = (event) => {
@@ -43,7 +44,7 @@
         showRole(name, type)
 
         // hide dropdown
-        event.currentTarget.parentElement.parentElement.classList.toggle(`hidden`)
+        event.currentTarget.parentElement.classList.toggle(`hidden`)
     }
 
     const bindClickEvents = () => {
