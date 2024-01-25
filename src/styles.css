@@ -7,9 +7,20 @@ html, body {
   display: none !important;
 }
 
+h1 {
+  text-align: center;
+}
+
 button {
   width: 100%;
   padding: 10px;
   font-size: 2em;
   border-radius: 8px;
+}
+
+button.reset {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
 }
