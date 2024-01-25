@@ -18,7 +18,7 @@
 
     const buildDropdownHtml = async (data) => {
         return await data.map(({name, title, altTitles, descriptionHtml}) => {
-            return `<div id="${name}" class="dropdown-item" data-name="${name}"><img src="images/msdropdown/icons/roles/${name}.png"><h2>${title}</h2></div>`
+            return `<div id="${name}" class="dropdown-item" data-name="${name}"><img src="images/msdropdown/icons/roles/${name}.png" data-name="${name}"><h2 data-name="${name}">${title}</h2></div>`
         }).join(``)
     }
 
@@ -33,7 +33,7 @@
     }
 
     const handleDropdownItemClick = (event) => {
-        const name = event.currentTarget.dataset.name
+        const name = event.target.dataset.name
         const type = event.currentTarget.parentElement.dataset.type
 
         // save selection
