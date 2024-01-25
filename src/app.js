@@ -63,7 +63,7 @@
 
         // do reset
         const resetButton = document.querySelector(`button.reset`)
-        dropdownButtons.addEventListener(`click`, (event) => {
+        resetButton.addEventListener(`click`, (event) => {
             localStorage.clear()
             location.reload()
         })
