@@ -25,3 +25,19 @@ button.reset {
   right: 0;
   width: auto;
 }
+
+.dropdown-item {
+  display: flex;
+}
+
+.dropdown-item img {
+}
+
+.dropdown-item  {
+  
+}
+
+.dropdown-item:hover {
+  background-color: #BCBCBC;
+  cursor: pointer;
+}
