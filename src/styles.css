@@ -1,7 +1,13 @@
+html, body {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
 .hidden {
   display: none !important;
 }
 
 button {
   width: 100%;
+  font-size: 2em;
 }
