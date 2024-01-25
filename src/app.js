@@ -18,7 +18,7 @@
 
     const buildDropdownHtml = async (data) => {
         return await data.map(({name, title, altTitles, descriptionHtml}) => {
-            return `<div id="${name}" class="dropdown-item"><img src="images/msdropdown/icons/roles/${name}.png"><h2>${title}</h2></div>`
+            return `<div id="${name}" class="dropdown-item" data-name="${name}"><img src="images/msdropdown/icons/roles/${name}.png"><h2>${title}</h2></div>`
         }).join(``)
     }
 
@@ -27,23 +27,38 @@
         return await response.json()
     }
 
+    const showRole = (name, type) => {
+        const selectedContainer = document.getElementById(`selected-${type}`)
+        selectedContainer.innerHTML = `${name} ${type}`
+    }
+
+    const handleDropdownItemClick = (event) => {
+        const name = event.target.dataset.name
+        const type = event.target.parentElement.parentElement.dataset.type
+
+        // save selection
+        localStorage.setItem(type, name)
+
+        // show selection
+        showRole(name, type)
+
+        // hide dropdown
+        event.target.parentElement.parentElement.classList.toggle(`hidden`)
+    }
+
     const bindClickEvents = () => {
         // open/close dropdown
         const dropdownButtons = document.querySelectorAll(`.dropdown button.button`)
         dropdownButtons.forEach((dropdownButton) => {
             dropdownButton.addEventListener(`click`, (event) => {
-                // which dropdown?
-                console.log(event.currentTarget)
+                event.target.parentElement.querySelector(`.dropdown-list`).classList.toggle(`hidden`)
             })    
         })
 
         // select item
         const dropdownLists = document.querySelectorAll(`.dropdown .dropdown-list`)
         dropdownLists.forEach((dropdownList) => {
-            dropdownList.addEventListener(`click`, (event) => {
-                // which item
-                localStorage.setItem("myCat", "Tom")
-            })
+            dropdownList.addEventListener(`click`, handleDropdownItemClick(event))
         })
 
         // do reset
