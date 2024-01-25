@@ -44,7 +44,7 @@
         showRole(name, type)
 
         // hide dropdown
-        event.currentTarget.parentElement.classList.toggle(`hidden`)
+        event.currentTarget.classList.toggle(`hidden`)
     }
 
     const bindClickEvents = () => {
