@@ -30,7 +30,10 @@
     const showRole = (name, type) => {
         const selectedContainer = document.getElementById(`selected-${type}`)
 const role = data.roles.find((role) => role.name === name)
-        selectedContainer.innerHTML = `<h2>${role title}</h2><h3>${role.altTitles}</h3><img src="images/msdropdown/icons/roles/${name}.png">${role.descriptionHtml}`
+        selectedContainer.innerHTML = `<h2>${role.title}</h2>
+                                         <h3>${role.altTitles}</h3>
+                                         <img src="images/msdropdown/icons/roles/${name}.png">
+                                         ${role.descriptionHtml}`
         selectedContainer.classList.remove(`hidden`)
     }
 
