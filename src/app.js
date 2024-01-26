@@ -14,6 +14,19 @@
         document.querySelector(`.dropdown-list.houses`).innerHTML += housesHtml
 
         bindClickEvents()
+        loadSaved()
+    }
+
+    const loadSaved = async () => {
+        const roleName = localStorage.getItem(`role`)
+        const houseName = localStorage.getItem(`house`)
+
+        if (roleName) {
+            showRole(roleName, `role`)
+        }
+        if (houseName) {
+            showRole(houseName, `house`)
+        }
     }
 
     const buildDropdownHtml = async (data) => {
