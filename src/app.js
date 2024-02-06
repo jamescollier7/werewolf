@@ -22,10 +22,10 @@
         const houseName = localStorage.getItem(`house`)
 
         if (roleName) {
-            showRole(roleName, `role`)
+            showSelected(roleName, `role`)
         }
         if (houseName) {
-            showRole(houseName, `house`)
+            showSelected(houseName, `house`)
         }
     }
 
@@ -40,7 +40,7 @@
         return await response.json()
     }
 
-    const showRole = (name, type) => {
+    const showSelected = (name, type) => {
         const selectedContainer = document.getElementById(`selected-${type}`)
 const role = data.roles.find((role) => role.name === name)
         selectedContainer.innerHTML = `<h2>${role.title}</h2>
@@ -58,7 +58,7 @@ const role = data.roles.find((role) => role.name === name)
         localStorage.setItem(type, name)
 
         // show selection
-        showRole(name, type)
+        showSelected(name, type)
 
         // hide dropdown
         event.currentTarget.classList.toggle(`hidden`)
