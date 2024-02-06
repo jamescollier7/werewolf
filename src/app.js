@@ -45,7 +45,7 @@
 const role = data.roles.find((role) => role.name === name)
         selectedContainer.innerHTML = `<h2>${role.title}</h2>
                                          <h3>${role.altTitles}</h3>
-                                         <img src="images/msdropdown/icons/roles/${name}.png">
+                                         <img src="images/full/${name}.png">
                                          ${role.descriptionHtml}`
         selectedContainer.classList.remove(`hidden`)
     }
