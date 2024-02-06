@@ -219,6 +219,60 @@
             "title": "The Bailiff's House",
             "altTitles": ["The Bailiff’s House: Occupied by the Bailiff"],
             "descriptionHtml": "<h3>(Permanent Power)</h3><ul><li>When a building is freed due to the death of its occupant, the Bailiff can choose a Vagabond of his choice. This Vagabond receives the empty building, hands in their bindle token, and gets the “power token” associated to the building if it had already been used.</li><li>If, come morning, multiple buildings are free, this selection will take place for each building.</li></ul><p><b>Note:</b> The elimination of the Bailiff will cause the end of the housing distribution. The Bailiff’s house will remain empty. The Vagabonds have thus a vested interest in protecting the Bailiff if they hope to claim a house!</p>"
+        },
+        {
+            "name": "bakery",
+            "title": "The Bakery",
+            "altTitles": ["The Bakery: Occupied by the Baker"],
+            "descriptionHtml": "<h3>(Permanent Power)</h3><ul><li>Each <b>night</b>, the Baker opens his eyes immediately after the Moderator finishes saying, “Werewolves go to sleep!” After a few seconds, the Moderator asks the Baker to go back to sleep.</li></ul>"
+        },
+        {
+            "name": "barber",
+            "title": "The Barber Shop",
+            "altTitles": ["The Barber Shop: Occupied by the Barber"],
+            "descriptionHtml": "<h3>(Unique Power)</h3><ul><li>At any point during the day, the Barber can eliminate a player of his choice.</li><li>If the player eliminated is a Werewolf, the Barber is congratulated by the village and he survives his action. Otherwise the Barber is immediately eliminated.</li><li>The Barber cannot eliminate a Vagabond.</li></ul>"
+        },
+        {
+            "name": "church",
+            "title": "The Church",
+            "altTitles": ["The Church: occupied by the Confessor"],
+            "descriptionHtml": "<h3>(Unique Power)</h3><ul><li>At any point during the day, even after the choice of the eliminated player via vote, the Confessor chooses a player who will have the immediate obligation to secretly show him his character card.</li></ul>"
+        },
+        {
+            "name": "farm",
+            "title": "The Farm",
+            "altTitles": ["The Farms: occupied by the Farmers"],
+            "descriptionHtml": "<h3>(Permanent Power)</h3><ul><li>Starting on the second turn, the Farmers debate and vote amongst themselves to choose one of them to be Sheriff.</li><li>If he is eliminated, the Sheriff must choose his successor only from among the remaining living Farmers.</li><li>If the last Farmer is eliminated, there will no longer be a Sheriff.</li></ul>"
+        },
+        {
+            "name": "hovel",
+            "title": "The Hovel",
+            "altTitles": ["The Hovel: Occupied by the Bonesetter"],
+            "descriptionHtml": "<h3>(Unique Power)</h3><ul><li>At any point during the day, the Bonesetter can make a player regain the unique power for a building that they’ve already used. The Moderator hands the token which represents the power linked to their building back to the selected player (for a new unique use).</li></ul>"
+        },
+        {
+            "name": "manor",
+            "title": "The Manor",
+            "altTitles": ["The Manor: Occupied by the Lord"],
+            "descriptionHtml": "<h3>(Unique Power)</h3><ul><li>After any vote, the Lord can, when requested by the future victim, pardon a villager chosen by the village’s vote. The player will thus not get eliminated and will not reveal his character card.</li><li>A selfish Lord can, of course, pardon himself.</li></ul>"
+        },
+        {
+            "name": "pub",
+            "title": "The Pub",
+            "altTitles": ["The Pub: Occupied by the Barkeep"],
+            "descriptionHtml": "<h3>(Permanent &amp; Conditional Power)</h3><ul><li>The Werewolves can’t devour him, and the villagers can’t vote against him.</li><li>Tradition demands that he always votes before anyone else (unless he’s lost his immunity).</li><li>If he votes against someone who is then eliminated (even if they’re saved before actually being eliminated), he loses his immunity and his token.</li></ul><p><b>Note:</b> All special powers work against him (his immunity is quite relative).</p>"
+        },
+        {
+            "name": "school",
+            "title": "The School",
+            "altTitles": ["The School: Occupied by the Schoolmarm (Teacher)"],
+            "descriptionHtml": "<h3>(Permanent Power)</h3><ul><li>Each day, right before the votes, the Schoolmarm can forbid two players at most from voting that turn.</li><li>She never votes.</li><li>The Schoolmarm and the players kept from voting can still debate during the village debate.</li><li>The Schoolmarm cannot stop a Vagabond from voting.</li></ul>"
+        },
+        {
+            "name": "vagabond",
+            "title": "The Vagabond",
+            "altTitles": ["The Vagabonds: No buildings"],
+            "descriptionHtml": "<h3>(Permanent Power)</h3><ul><li>The powers of the Schoolmarm, the Barber, the Scandalmonger, and the Pyromaniac have no effect on the Vagabonds.</li><li>When a building is freed due to the death of its occupant, the Bailiff chooses a Vagabond of their choice. The former Vagabond receives the empty building, hands in their bindle token, and gets the power token associated with that building.</li><li>A Vagabond can refuse to occupy a house offered by the Bailiff.</li></ul>"
         }
     ]
 }
