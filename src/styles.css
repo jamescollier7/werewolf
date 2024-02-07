@@ -9,8 +9,23 @@ html, body {
   display: none !important;
 }
 
-h1, h2, h3 {
+h2, h3 {
   text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  background: #ffffff20;
+  margin: 0;
+  padding: 0.5em;  
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.5em;
 }
 
 button {
@@ -27,8 +42,8 @@ button:hover {
 button.reset {
   position: absolute;
   z-index: 1;
-  top: .5em;
-  right: .5em;
+  top: 1.2em;
+  right: .75em;
   width: auto;
 }
 
@@ -54,4 +69,5 @@ button.reset {
 .selected {
   display: flex;
   flex-direction: column;
+  padding: 2em;
 }
