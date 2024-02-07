@@ -27,8 +27,8 @@ button:hover {
 button.reset {
   position: absolute;
   z-index: 1;
-  top: 0;
-  right: 0;
+  top: .5em;
+  right: .5em;
   width: auto;
 }
 
