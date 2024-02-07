@@ -50,3 +50,9 @@ button.reset {
   background-color: #BCBCBC;
   cursor: pointer;
 }
+
+.selected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
