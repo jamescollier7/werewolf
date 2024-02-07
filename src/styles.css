@@ -11,6 +11,7 @@ html, body {
 
 h2, h3 {
   text-align: center;
+  margin: 0.2em;
 }
 
 h1 {
@@ -70,4 +71,8 @@ button.reset {
   display: flex;
   flex-direction: column;
   padding: 2em;
+}
+
+.selected > img {
+   margin: 1em 0;
 }
