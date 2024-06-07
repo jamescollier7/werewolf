@@ -31,7 +31,12 @@
 
     const buildDropdownHtml = async (data, type) => {
         return await data.map(({name, title, altTitles, descriptionHtml}) => {
-            return `<div id="${name}" class="dropdown-item" data-name="${name}"><img src="images/msdropdown/icons/${type}/${name}.png" data-name="${name}"><h2 data-name="${name}">${title}</h2></div>`
+            return `<div id="${name}" class="dropdown-item" data-name="${name}">
+                        <div class="image-wrapper">
+                            <img src="images/msdropdown/icons/${type}/${name}.png" data-name="${name}">
+                        </div>
+                        <h2 data-name="${name}">${title}</h2>
+                    </div>`
         }).join(``)
     }
 
