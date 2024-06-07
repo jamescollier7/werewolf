@@ -69,10 +69,13 @@
         const dropdownButtons = document.querySelectorAll(`.dropdown button.button`)
         dropdownButtons.forEach((dropdownButton) => {
             dropdownButton.addEventListener(`click`, (event) => {
+                const thisDropdownHidden = event.currentTarget.parentElement.querySelector(`.dropdown-list`).classList.contains(`hidden`)
                 dropdownButtons.forEach((dropdownButton) => {
                     dropdownButton.parentElement.querySelector(`.dropdown-list`).classList.add(`hidden`)
                 })
-                event.currentTarget.parentElement.querySelector(`.dropdown-list`).classList.toggle(`hidden`)
+                if (thisDropdownHidden) {
+                    event.currentTarget.parentElement.querySelector(`.dropdown-list`).classList.remove(`hidden`)
+                }
             })    
         })
 
