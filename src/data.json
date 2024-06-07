@@ -247,7 +247,7 @@
         {
             "name": "hovel",
             "title": "The Hovel",
-            "altTitles": ["The Hovel: Occupied by the Bonesetter"],
+            "altTitles": ["The Hovel: Occupied by the Bonesetter", "The Bonesetter],
             "descriptionHtml": "<h3>(Unique Power)</h3><ul><li>At any point during the day, the Bonesetter can make a player regain the unique power for a building that they’ve already used. The Moderator hands the token which represents the power linked to their building back to the selected player (for a new unique use).</li></ul>"
         },
         {
