@@ -7,8 +7,8 @@
     const init = async () => {
         app = document.getElementById(`app`)
         data = await getData()
-        const rolesHtml = await buildDropdownHtml(data.roles)
-        const housesHtml = await buildDropdownHtml(data.houses)
+        const rolesHtml = await buildDropdownHtml(data.roles, `roles`)
+        const housesHtml = await buildDropdownHtml(data.houses, `houses`)
 
         document.querySelector(`.dropdown-list.roles`).innerHTML += rolesHtml
         document.querySelector(`.dropdown-list.houses`).innerHTML += housesHtml
@@ -29,9 +29,9 @@
         }
     }
 
-    const buildDropdownHtml = async (data) => {
+    const buildDropdownHtml = async (data, type) => {
         return await data.map(({name, title, altTitles, descriptionHtml}) => {
-            return `<div id="${name}" class="dropdown-item" data-name="${name}"><img src="images/msdropdown/icons/roles/${name}.png" data-name="${name}"><h2 data-name="${name}">${title}</h2></div>`
+            return `<div id="${name}" class="dropdown-item" data-name="${name}"><img src="images/msdropdown/icons/${type}/${name}.png" data-name="${name}"><h2 data-name="${name}">${title}</h2></div>`
         }).join(``)
     }
 
