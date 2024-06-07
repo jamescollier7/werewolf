@@ -47,11 +47,11 @@
 
     const showSelected = (name, type) => {
         const selectedContainer = document.getElementById(`selected-${type}`)
-        const role = data.roles.find((role) => role.name === name)
-        selectedContainer.innerHTML = `<h2>${role.title}</h2>
-                                         <h3>${role.altTitles}</h3>
+        const item = data[type].find((item) => item.name === name)
+        selectedContainer.innerHTML = `<h2>${item.title}</h2>
+                                         <h3>${item.altTitles}</h3>
                                          <img src="images/full/${name}.png">
-                                         ${role.descriptionHtml}`
+                                         ${item.descriptionHtml}`
         selectedContainer.classList.remove(`hidden`)
     }
 
