@@ -55,8 +55,16 @@ button.reset {
   margin: 5px 0;
 }
 
-.dropdown-item img {
+.dropdown-item .image-wrapper {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.dropdown-item .image-wrapper img {
   max-width: 100px;
+  max-height: 100px;
 }
 
 .dropdown-item h2 {
