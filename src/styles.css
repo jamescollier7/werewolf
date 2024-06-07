@@ -54,7 +54,7 @@ button:hover {
   cursor: pointer;
 }
 
-.dropdown button.house {
+.house.dropdown button {
   position: absolute;
   top: 192px;
   left: 170px;
