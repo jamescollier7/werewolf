@@ -18,6 +18,7 @@ h2, h3 {
 header {  
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: sticky;
   top: 0;
   background: #333333;
@@ -27,6 +28,7 @@ header {
 
 h1 {
   font-size: 4em;
+  margin: .25em;
 }
 
 h2 {
@@ -59,16 +61,12 @@ button:hover {
 
 .house.dropdown button {
   position: absolute;
-  top: 172px;
+  top: 143px;
   left: 170px;
 }
 
 button.reset {
-  position: absolute;
-  z-index: 1;
-  top: .35em;
-  right: .75em;
-  width: auto;
+  height: fit-content;
 }
 
 button.reset svg {
