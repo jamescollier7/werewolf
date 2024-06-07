@@ -42,7 +42,7 @@
 
     const showSelected = (name, type) => {
         const selectedContainer = document.getElementById(`selected-${type}`)
-const role = data.roles.find((role) => role.name === name)
+        const role = data.roles.find((role) => role.name === name)
         selectedContainer.innerHTML = `<h2>${role.title}</h2>
                                          <h3>${role.altTitles}</h3>
                                          <img src="images/full/${name}.png">
@@ -69,6 +69,9 @@ const role = data.roles.find((role) => role.name === name)
         const dropdownButtons = document.querySelectorAll(`.dropdown button.button`)
         dropdownButtons.forEach((dropdownButton) => {
             dropdownButton.addEventListener(`click`, (event) => {
+                dropdownButtons.forEach((dropdownButton) => {
+                    dropdownButton.parentElement.querySelector(`.dropdown-list`).classList.add(`hidden`)
+                })
                 event.currentTarget.parentElement.querySelector(`.dropdown-list`).classList.toggle(`hidden`)
             })    
         })
