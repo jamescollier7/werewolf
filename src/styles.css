@@ -3,6 +3,7 @@ html, body {
   font-size: 20px;
   background-color: #121212;
   color: #dedede;
+  margin: 0;
 }
 
 .hidden {
@@ -14,13 +15,16 @@ h2, h3 {
   margin: 0.2em;
 }
 
+header {  
+  position: sticky;
+  top: 0;
+}
+
 h1 {
   font-size: 4em;
   background: #333333;
   margin: 0;
   padding: 0.5em;
-  position: sticky;
-  top: 0;
 }
 
 h2 {
