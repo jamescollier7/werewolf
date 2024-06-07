@@ -58,8 +58,11 @@ button.reset {
 .dropdown-item img {
 }
 
-.dropdown-item  {
-  
+.dropdown-item h2 {
+  max-width: 90vw;
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .dropdown-item:hover {
