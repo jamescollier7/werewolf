@@ -47,7 +47,7 @@
 
     const showSelected = (name, type) => {
         const selectedContainer = document.getElementById(`selected-${type}`)
-        const item = data[type].find((item) => item.name === name)
+        const item = data[`${type}s`].find((item) => item.name === name)
         selectedContainer.innerHTML = `<h2>${item.title}</h2>
                                          <h3>${item.altTitles}</h3>
                                          <img src="images/full/${name}.png">
