@@ -54,6 +54,11 @@ button:hover {
   cursor: pointer;
 }
 
+.dropdown button.button {
+  position: absolute;
+  right: 0;
+}
+
 button.reset {
   position: absolute;
   z-index: 1;
