@@ -40,6 +40,14 @@ button {
   padding: 10px;
   font-size: 2em;
   border-radius: 8px;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button svg {
+  max-width: 75px;
 }
 
 button:hover {
