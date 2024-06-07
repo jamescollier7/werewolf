@@ -64,9 +64,14 @@ button:hover {
 button.reset {
   position: absolute;
   z-index: 1;
-  top: 1.2em;
+  top: .35em;
   right: .75em;
   width: auto;
+}
+
+button.reset svg {
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .dropdown-item {
